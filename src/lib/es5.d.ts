@@ -235,7 +235,7 @@ interface ObjectConstructor {
     isExtensible(o: any): boolean;
 
     /**
-     * Returns the names of the enumerable string properties and methods of an object.
+     * Returns the names of the own enumerable string properties and methods of an object.
      * @param o Object that contains the properties and methods. This can be an object that you created or an existing Document Object Model (DOM) object.
      */
     keys(o: object): string[];
